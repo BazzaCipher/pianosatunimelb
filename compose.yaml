@@ -1,0 +1,8 @@
+services:
+  pianosatunimelb:
+    build: .
+    container_name: pianosatunimelb
+    image: me/pianos
+    ports:
+      - "3507:3000"
+    # restart: always
